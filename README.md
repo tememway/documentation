@@ -1,32 +1,34 @@
-# Mintlify Starter Kit
+---
+title: Get started with LobeChat
+description: >-
+  Explore the exciting features in LobeChat, including Vision Model, TTS & STT,
+  Local LLMs, and Multi AI Providers. Discover more about Agent Market, Plugin
+  System, and Personalization.
+tags:
+  - Feature Overview
+  - Vision Model
+  - TTS & STT
+  - Local LLMs
+  - Multi AI Providers
+  - Agent Market
+  - Plugin System
+---
 
-Click on `Use this template` to copy the Mintlify starter kit. The starter kit contains examples including
+# ✨ Feature Overview
 
-- Guide pages
-- Navigation
-- Customizations
-- API Reference pages
-- Use of popular components
+<Image
+  alt={
+  'Vision Model / TTS & STT / Local LLMs / Multi AI Providers / Agent Market / Plugin System / Personal'
+}
+  borderless
+  height={426}
+  margin={12}
+  src={'https://github.com/lobehub/lobe-chat/assets/17870709/56b95d48-f573-41cd-8b38-387bf88bc4bf'}
+  width={832}
+/>
 
-### Development
+<FeatureCards agentMarket={'Assistant Market'} auth={'Multi-User Management'} database={'Local/Cloud Database'} localLLM={'Local LLM'} pluginSystem={'Plugin System'} providers="Multi AI Providers" textToImage={'Text-to-Image'} tts={'TTS & STT'} vision={'Visual Recognition'} />
 
-Install the [Mintlify CLI](https://www.npmjs.com/package/mintlify) to preview the documentation changes locally. To install, use the following command
+## Experience Features
 
-```
-npm i -g mintlify
-```
-
-Run the following command at the root of your documentation (where mint.json is)
-
-```
-mintlify dev
-```
-
-### Publishing Changes
-
-Install our Github App to auto propagate changes from your repo to your deployment. Changes will be deployed to production automatically after pushing to the default branch. Find the link to install on your dashboard. 
-
-#### Troubleshooting
-
-- Mintlify dev isn't running - Run `mintlify install` it'll re-install dependencies.
-- Page loads as a 404 - Make sure you are running in a folder with `mint.json`
+<ExperienceCards mobile={'Mobile Device Adaptation'} pwa={'Progressive Web App'} theme={'Custom Themes'} />
